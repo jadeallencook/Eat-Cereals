@@ -13,6 +13,13 @@ body {
     font-family: 'Playball', cursive;
 }
 
+#wrapper {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    display: inline-block;
+}
+
 h1,
 h2,
 h3,
@@ -57,13 +64,8 @@ img {
     top: 0px;
 }
 
-.navArea {
-    /*float:right;*/
-}
-
 .navwrapper .container {
     padding: 0;
-    width: auto;
 }
 
 .navbar-header {
@@ -418,17 +420,12 @@ img#site-title {
 .grid li {
     width: 25%;
     float: left;
-    cursor: pointer;
 }
 
 .grid figure {
     padding: 15px;
     -webkit-transition: opacity 0.2s;
     transition: opacity 0.2s;
-}
-
-.grid li:hover figure {
-    opacity: 0.7;
 }
 
 .grid figcaption {
